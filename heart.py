@@ -7,6 +7,7 @@ import seaborn as sns
 import numpy as np
 from matplotlib import pyplot as plt
 
+print(pickle.format_version)
 with open('xgb_model', "rb") as model:
     clf = pickle.load(model)
 
